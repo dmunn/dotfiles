@@ -1,0 +1,9 @@
+[project]
+name = "chezmoi"
+version = "0.1.0"
+description = "Dotfile Manager"
+readme = "README.md"
+requires-python = ">=3.10.0"
+dependencies = [
+    "pre-commit==4.3.0",
+]
