@@ -28,7 +28,7 @@ source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
 # Load Aliases
-source $HOME/code/dotfiles/.aliases
+source $HOME/.aliases
 
 # Setup UV
 . "$HOME/.local/bin/env"
