@@ -19,8 +19,16 @@ dependencies = [
     { name = "pre-commit" },
 ]
 
+[package.dev-dependencies]
+dev = [
+    { name = "chezmoi" },
+]
+
 [package.metadata]
 requires-dist = [{ name = "pre-commit", specifier = "==4.3.0" }]
+
+[package.metadata.requires-dev]
+dev = [{ name = "chezmoi", virtual = "." }]
 
 [[package]]
 name = "distlib"
