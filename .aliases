@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+# List files, in long format
+alias l="ls -al"
+
+# Supercharged cat - syntax highlighting and git integration
+alias cat="/opt/homebrew/bin/bat"
+
+# Get week number
+alias week="date +%V"
+
+# Reload the shell (i.e. invoke as a login shell)
+alias reload="exec ${SHELL} -l"
+
+# Print each PATH entry on a seperate line
+alias path="echo -e ${PATH//:/\\n}"
+
+# AWS Login
+alias awsl="aws-sso-util login"
+
+# Kubectl
+alias k='kubectl'
+
+# Kubectl CTX plugin
+alias ctx='kubectl ctx'
+
+# Kubectl NS plugin
+alias ns='kubectl ns'
